@@ -51,7 +51,7 @@ a {
 
 /* header styles */
 header {
-  color: black;
+  color: white;
   background:  url() no-repeat center center;
   background:  url(images/banner_kuva.jpg) no-repeat center center; /* Tähän voi sit keksii paremman bännerin */
   background-size: cover; 
