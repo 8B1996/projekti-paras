@@ -16,7 +16,6 @@ body {
 /* GRID LAYOUT */
 #container {
   display: grid;
-  font-weight: 550;
   grid-template-rows: auto auto 5em;
   grid-template-columns: minmax(25em, 1fr) 16em;
   grid-template-areas: 
