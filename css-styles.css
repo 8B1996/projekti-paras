@@ -16,6 +16,7 @@ body {
 /* GRID LAYOUT */
 #container {
   display: grid;
+  font-weight: 550;
   grid-template-rows: auto auto 5em;
   grid-template-columns: minmax(25em, 1fr) 16em;
   grid-template-areas: 
@@ -64,7 +65,13 @@ header p {
   margin-top: -12px;
 }
 header h1 {
+  
   margin-top: 1.5em;
+  font-family: 'Stint Ultra Expanded', Georgia, serif;
+  font-weight: 800;
+  
+  color: rgb(231, 228, 228);
+  text-shadow: 20px #fff;
 }
 
 
@@ -105,13 +112,15 @@ nav ul li a {
 main {
   font-family: 'Stint Ultra Expanded', Georgia, serif;
   background-color: white;
-  line-height: 1.8em;
+  line-height: 1.2em;
   color: #555;
   padding: 1em;
   border: double 4px #EADDC4;
   border-radius: 25px;
   margin: 2.5%; 
+  font-size: 1em; /* etusivun info tekstin koko*/
 }
+
 h3 {
   text-transform: uppercase;
   letter-spacing: .2em;
@@ -164,18 +173,18 @@ footer {
   font-size: .8em;
   padding: 1em;
 }
-#award { 	
-  position: fixed; 	
-  top: 30px; 	
-  left: 50px;
-}
-h2 {
+
+h2 { /* Etusivun aukioloajat header*/
   font-family: 'Stint Ultra Expanded', Georgia, serif;
+  word-wrap: break-word; /*   Tällä saa tekstin sovitettua div boxin sisälle*/
+  font-size: 22px;
 }
-.day {
+.day { /* Etusivun aukioloajat*/
   color: #783F27;
   font-family: verdana, sans-serif;
   font-size: .8em;
   text-transform: uppercase;
+  word-wrap: break-word;
+
 }
 
