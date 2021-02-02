@@ -39,7 +39,8 @@ footer {
 
 /* link styles */
 a:link, a:visited { color: #DC6903; }
-a:focus, a:hover, a:active { color: #080705; }
+a:focus, a:hover { color: #080705; }
+a:link, a:active {color:#1cf01c}
 
 a {
   text-decoration: none;
@@ -80,15 +81,15 @@ nav, footer {
   background-color: #639BC3;
 }
 nav ul li a:link, nav ul li a:visited {
-  color: #639BC3;
+  color: #f31212;
 }
-a.active.nav-link {
-  background-color: #000000!important;
-} 
+
 
 nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
   color: rgb(0, 0, 0);
 }
+
+
 nav ul {
   margin: 0;
   padding: 0;
@@ -163,7 +164,7 @@ img[src*="muffin"] {
 /* aside "hours" styles */
 aside {
   background: url(images/scallop.png) repeat-y left top;
-  background-color: #639BC3;
+  background-color: #F6F3ED;
   padding: 1em;
   padding-left: 45px;
   /* border-top-right-radius: 25px; */
