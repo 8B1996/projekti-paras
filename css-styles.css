@@ -76,12 +76,17 @@ header h1 {
 
 
 /* nav styles */
+@media only screen and (max-width:600px) {
+  ul {
+    font-size: 20px; 
+    }
+  }
 nav, footer {
   font-family: verdana, sans-serif;
   background-color: black;
 }
 nav ul li a:link, nav ul li a:visited {
-  color: black;
+  color:#639BC3;
 }
 
 
