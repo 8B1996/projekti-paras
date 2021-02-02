@@ -83,10 +83,10 @@ header h1 {
   }
 nav, footer {
   font-family: verdana, sans-serif;
-  background-color: black;
+  background-color:#639BC3;
 }
 nav ul li a:link, nav ul li a:visited {
-  color:#639BC3;
+  color:#000727;
 }
 
 
