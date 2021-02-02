@@ -38,8 +38,8 @@ footer {
 }
 
 /* link styles */
-a:link, a:visited { color: #DC6903; }
-a:focus, a:hover, a:active { color: black; }
+a:link, a:visited { color: #000000; }
+a:focus, a:hover, a:active { color: #000000; }
 
 a {
   text-decoration: none;
@@ -69,7 +69,7 @@ header h1 {
   margin-top: 1.5em;
   font-family: 'Stint Ultra Expanded', Georgia, serif;
   
-  color: black;
+  color: #000000;
   text-shadow: 20px #fff;
 }
 
@@ -80,14 +80,14 @@ nav, footer {
   background-color: #639BC3;
 }
 nav ul li a:link, nav ul li a:visited {
-  color: #639BC3;
+  color: #000000;
 }
 a.active.nav-link {
   background-color: #000000!important;
 } 
 
 nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
-  color: black;
+  color: #000000;
 }
 nav ul {
   margin: 0;
@@ -127,7 +127,7 @@ main {
 h3 {
   text-transform: uppercase;
   letter-spacing: .2em;
-  color: black;
+  color: #000000;
   border-top: 1px solid;
   border-left: 3px solid;
   padding-left: 1em;
@@ -178,7 +178,7 @@ footer {
   width: 100%;
   background-color: #639BC3;
   text-align: center;
-  color: black;
+  color: #000000;
   text-align: center;
   font-size: .8em;
   padding: 1em;
@@ -190,7 +190,7 @@ h2 { /* Etusivun aukioloajat header*/
   font-size: 22px;
 }
 .day { /* Etusivun aukioloajat*/
-  color: #639BC3;
+  color: #000000;
   font-family: verdana, sans-serif;
   font-size: .8em;
   text-transform: uppercase;
