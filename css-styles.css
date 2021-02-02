@@ -50,6 +50,7 @@ a {
 
 
 /* header styles */
+
 header {
   color: white;
   background:  url() no-repeat center center;
@@ -82,7 +83,7 @@ nav ul li a:link, nav ul li a:visited {
   color: #F9AB33;
 }
 nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 nav ul {
   margin: 0;
