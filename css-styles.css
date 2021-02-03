@@ -135,10 +135,13 @@ h3 {
   text-transform: uppercase;
   letter-spacing: .2em;
   color: #000000;
-  border-top: 1px solid;
-  border-left: 3px solid;
-  padding-left: 1em;
   margin-top: 2.5em;
+  word-wrap: break-word; /*   Tällä saa tekstin sovitettua div boxin sisälle*/
+}
+p {
+ 
+  
+  word-wrap: break-word; /*   Tällä saa tekstin sovitettua div boxin sisälle*/
 }
 p.more {
   font-family: verdana, sans-serif;
