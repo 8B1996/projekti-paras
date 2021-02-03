@@ -137,6 +137,7 @@ h3 {
   color: #000000;
   margin-top: 2.5em;
   word-wrap: break-word; /*   Tällä saa tekstin sovitettua div boxin sisälle*/
+  border-top: 1px solid;
 }
 p {
  
