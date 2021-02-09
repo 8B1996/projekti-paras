@@ -9,7 +9,7 @@ html {
 body {
   font-family: Georgia, serif;
   font-size: 100%;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   margin: 0;
 }
 
@@ -87,12 +87,12 @@ nav, footer {
   background-color:#639BC3;
 }
 nav ul li a:link, nav ul li a:visited {
-  color:#000727;
+  color:#000000;
 }
 
 
 nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
-  color: #7B7A7A;
+  color: #fd5202;
 }
 
 
