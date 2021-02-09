@@ -24,6 +24,16 @@ body {
     "footer footer";
 	 
 }
+#container2 {
+  display: grid;
+  grid-template-rows: auto auto 5em;
+  grid-template-columns: minmax(25em, 1fr) 16em;
+  grid-template-areas: 
+    "banner banner"
+    "main main"
+    "footer footer";
+	 
+}
 header {
   grid-area: banner;
 }
